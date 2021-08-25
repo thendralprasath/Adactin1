@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="85.612418">
+<testcase classname="Validating Adacting Webpage" name="Generating order Id of Adacting webpage" time="50.42659">
+<system-out><![CDATA[Given user is Adacting home page............................................passed
+When user enter "thendralprasath" and "IWHO25"..............................passed
+And user should click login button..........................................passed
+When User enter the "2"  "1" "2" "4"  "12/08/2021" "14/08/2021" "2" "1".....passed
+And user  click the search button...........................................passed
+And user should selec hotel and continue for booking........................passed
+When User entries "aaa"  "BBB" "CCCC" "5432167895432567"  "3" "8" "2" "465".passed
+Then user should click the book now button..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating Adacting Webpage" name="Generating order Id of Adacting webpage 2" time="35.185828">
+<system-out><![CDATA[Given user is Adacting home page............................................passed
+When user enter "thendralprasath" and "IWHO25"..............................passed
+And user should click login button..........................................passed
+When User enter the "4"  "2" "3" "5"  "14/08/2021" "20/08/2021" "3" "2".....passed
+And user  click the search button...........................................passed
+And user should selec hotel and continue for booking........................passed
+When User entries "DDD"  "EBB" "HGCC" "8752167895432567"  "2" "4" "3" "065".passed
+Then user should click the book now button..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
